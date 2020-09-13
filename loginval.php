@@ -34,7 +34,7 @@
             if (strlen((string)$pass)<=8 and strlen((string)$pass)>=15) { 
             $passErr = "Password should be of length 8 t0 15 characters";
             }else{
-                $conn=mysqli_connect('localhost','root','','citycentre') or die(mqsql_error());
+                $conn=mysqli_connect('remotemysql.com','VWKzbiddv8','ohh02PJ6J6','VWKzbiddv8') or die(mqsql_error());
                 $dec=convert_uuencode($pass);
                 $pcheck=mysqli_query($conn,"select Password as pcheck from customer where Password='$dec'");
                 $pc=mysqli_fetch_array($pcheck);
@@ -47,7 +47,7 @@
             }
         }
         if($c==2){
-            $conn=mysqli_connect('localhost','root','','citycentre') or die(mqsql_error());
+            $conn=mysqli_connect('remotemysql.com','VWKzbiddv8','ohh02PJ6J6','VWKzbiddv8') or die(mqsql_error());
             mysqli_query($conn,"update customer set lin=1 where Email='$ne'");
             header('Location:lindex.php?sort=basic');
         }
