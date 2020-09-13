@@ -54,7 +54,7 @@
         </div>
         <div class="product">
         <div class="leftsort">
-            <p style="font-size : 30px;">Sort</p>
+            <p style="font-size : 30px;">Snort</p>
             <a href="?sort=asc"><p style="font-size : 20px;" name="sortasc" value=value1>&nbsp;Price Low to High</p></a>
             <a href="?sort=desc"><p style="font-size : 20px;" name="sortdesc">&nbsp;Price High to Low</p></a>
             <a href="?sort=basic"><p style="font-size : 20px;" name="sortbasic">&nbsp;Default</p></a>
