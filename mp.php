@@ -49,7 +49,7 @@
                         <li class="rightbar"><a  href="about.php">About</a></li>
                         <li class="rightbar"><a href="contact.php">Contact Us</a></li>
                         <li class="rightbar"><a  href="login.php">Login</a></li>
-                        <li class="imgbar"><a href="cart.php"><img src="images/shopcart.jpg" height="40"></a></li>
+                        <li class="imgbar"><a href="cart.php"><img src="images/shopcart.png" height="40"></a></li>
                       </ul>                      
         </div>
         <div class="product">
