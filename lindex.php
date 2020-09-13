@@ -47,7 +47,7 @@
                         <li class="rightbar"><a  href="https://goo.gl/forms/qLqjPHXebjchH0bX2">Feedback</a></li>
                         <li class="rightbar"><a  href="about.php">About</a></li>
                         <li class="rightbar"><a href="contact.php">Contact Us</a></li>
-                        <li class="rightbar"><a href="index.php?sort=basic">Sign Out</a></li>
+                        <li class="rightbar"><a href="mp.php?sort=basic">Sign Out</a></li>
                         <li class="rightbar"><a  href="#Hello">Hello <?php echo $lina['Fname'];?></a></li>
                         <li class="imgbar"><a href="cart.php"><img src="images/shopcart.png" height="40"></a></li>
                       </ul>                      
