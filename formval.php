@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD']=="POST"){
         if (!preg_match("/^[a-z0-9.]+[a-z0-9.]*[@][a-z]+[.][a-z]+$/",$email)) { 
         $emailErr = "Enter a proper email id";
         }else{
-            $conn=mysqli_connect('localhost','root','','citycentre') or die(mqsql_error());
+            $conn=mysqli_connect('remotemysql.com','VWKzbiddv8','ohh02PJ6J6','VWKzbiddv8') or die(mqsql_error());
             $echeck=mysqli_query($conn,"select Email as echeck from customer where Email='$email'");
             $ec=mysqli_fetch_array($echeck);
             $ne=$ec['echeck'];
