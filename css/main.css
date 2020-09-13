@@ -1,0 +1,201 @@
+.logindiv{
+    margin-left: 38%;
+}
+.logodiv{
+    align-items: center;
+}
+.logophoto{
+    width:234px;
+    height:101px;
+}
+.authdiv{
+    border-style: solid;
+    padding-left: 1%;
+    border-color: grey;
+    width: 40%;
+}
+.formtext{
+
+    font-size: 130%;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+}
+.headtext{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.singupform{
+     font-size: 20px; 
+     padding: 20px;   
+}
+.inputsignup{
+    width:92%;
+    height:30px;
+    margin: 8px;
+    font-size: 16px;
+}
+.buttonsignup{
+    width : 91%;
+    height: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 20px;
+    background-color: steelblue;
+}
+
+.makeacnt{
+    width : 91%;
+    height: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: steelblue;
+    font-size: 20px;
+    background-color: white;
+}
+.buttoncont{
+    text-decoration: none;
+    color: black;
+}
+
+ul.menuul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:steelblue;
+}
+
+li.menuli{
+    float: left;
+}
+
+li.menuli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.menuli:hover{
+    background-color: greenyellow;
+}
+
+.mainlogo{
+    background-color: greenyellow;
+    height:130px;
+}
+.mainlogo:after{
+    content: "";
+}
+div.menudiv{
+    position: sticky;
+    top: 0;
+}
+.searchbar{
+    width:40%;
+    height: 30px;
+    align-content: center;
+}
+li.rightbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.rightbar:hover{
+    background-color: greenyellow;
+}
+li.rightbar{
+    float: right;
+}
+li.imgbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding : 3px;
+    text-decoration: none;
+}
+li.imgbar:hover{
+    background-color: greenyellow;
+}
+li.imgbar{
+    float: right;
+}
+.dropbtn {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    border: none;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: white;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.product{
+    width: 100%;
+    overflow: auto;
+}
+.leftsort{
+    width: 15%;
+    float: left;
+    height: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+.productsection{
+    width: 85%;
+    float: right;
+    height: 100%;
+}
+.modelname{
+    font-size: 25px;
+    text-decoration: none;
+    color: darkblue;
+}
+.tablemob{
+    width:100%;
+}
+.imgmobile{
+    width: 20%;
+    font-size: 20px;
+}
+.mobiledata{
+    width: 60%;
+    font-size: 20px;
+}
+.mobprice{
+    width: 20%;
+    font-size: 25px;
+}
+.mpage{
+    width: 100%;
+    overflow: auto;
+}
+.mpageimg{
+    width: 40%;
+    float: left;
+}
+.mpagedetail{
+    width: 60%;
+    float: right;
+}
+.mpagedata{
+    font-size: 25px;
+}
+.error{
+    color: red;
+    font-size: 10px;
+}
